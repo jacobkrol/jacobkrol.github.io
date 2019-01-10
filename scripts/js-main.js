@@ -7,35 +7,24 @@ $(document).ready(function() {
 	name_tag();
 	disable_smooth_scroll();
 	// dropdown_title_active();  KEEP DROPDOWN TITLE ACTIVE
+	set_side_scroll_box();
+	begin_side_scroll();
 	
-	$('.side-scroll-outer').css('width', $(window).width());
-	$('.side-scroll-inner').css('width', 4*$(window).width());
-	$('.side-scroll-inner .content-block').css('width', $(window).width());
+	let menu = {
+		background: $('#menu').css('background'),
+		border: $('#menu').css('border')
+	};
+			  
+	setInterval(function navbar() {
+		if(!pageYOffset) {
+			$('#menu').css({'background': 'none'})
+					  .css({'border': 'none'});
+		} else {
+			$('#menu').animate({backgroundColor: menu.background}, 1000);
+					  //.animate({'borderBottomColor': menu.border}, "slow");
+		}
+	}, 1);
 	
-	// setTimeout(function side_scroll(){
-	
-		// make the div slides instead of jumping to the destination
-		// $('.side-scroll-inner').css('transition', 'transform 1.0s ease');
-		
-		// var shiftVal = '-'+String($(window).width())+"px";
-		// will slide 30px to the right, can be negative (-100px), percentage (100%)
-		// $('.side-scroll-inner').css('transform', 'translateX('+shiftVal+')');
-		
-		// setTimeout(side_scroll, 2000);
- 
-	// }, 2000);
-	
-	// var sso = $('side-scroll-outer');
-	// sso.css('padding-bottom', sso.offsetHeight - sso.clientHeight + "px");
-	
-	var shiftVal = 0,
-		numPanels = 4;
-	setInterval(function side_scroll() {
-		shiftVal += (shiftVal < (numPanels-1)*$(window).width() ? $(window).width() : -(numPanels-1)*$(window).width());
-		// $('.side-scroll-outer').scrollLeft(shiftVal);
-		
-		$('.side-scroll-outer').animate( {scrollLeft: shiftVal }, 1500 );
-	}, 4000);
 
 });
 
@@ -76,8 +65,8 @@ function dropdown_title_active() {
 }
 
 function background_image() {
-	$('.overlay').css('height', $(window).height() - $('#menu').height());
-	$('.overlay').css('top', $('#menu').height());
+	$('.overlay').css('height', $(window).height());// - $('#menu').height());
+	//$('.overlay').css('top', $('#menu').height());
 	$('header').css('height', $(window).height());
 }
 
@@ -101,5 +90,22 @@ function disable_smooth_scroll() {
             window.scrollTo(0, currentScrollPosition - wheelDelta);
         });
 	}
+}
+
+function set_side_scroll_box() {
+	$('.side-scroll-outer').css('width', $(window).width());
+	$('.side-scroll-inner').css('width', 4*$(window).width());
+	$('.side-scroll-inner .content-block').css('width', $(window).width());
+}
+
+function begin_side_scroll() {
+	var shiftVal = 0,
+		numPanels = 4;
+	setInterval(function side_scroll() {
+		shiftVal += (shiftVal < (numPanels-1)*$(window).width() ? $(window).width() : -(numPanels-1)*$(window).width());
+		// $('.side-scroll-outer').scrollLeft(shiftVal);
+		
+		$('.side-scroll-outer').animate( {scrollLeft: shiftVal }, 1500 );
+	}, 4000);
 }
 
