@@ -20,7 +20,7 @@ $(document).ready(function() {
 			$('#menu').css({'background': 'none'})
 					  .css({'border': 'none'});
 		} else {
-			$('#menu').css({'background': menu.background});
+			$('#menu').css({'background': menu.background})
 				  .css({'border': menu.border});
 		}
 	}, 1);
