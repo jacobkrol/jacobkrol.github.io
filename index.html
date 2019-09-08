@@ -14,23 +14,22 @@ For inquiries, please contact jacobskrol@gmail.com
 	<meta name="author" content="Jacob Krol" />
 	<meta name="description" content="My name is Jacob Krol, an undergraduate at the University of Illinois at Chicago, studying for a BS in Mathematics and Computer Science and a BA in French and Francophone Studies." />
 	<meta name="keywords" content="Jacob Krol, Resume, CV, Website, Undergraduate, Mathematics, Computer Science, French, Web Design" />
-	
+
 	<!-- TITLE CARD -->
     <title>Jacob Krol</title>
 	<link rel="shortcut icon" href="./graphics/name icon.png" />
-    
+
 	<!-- STYLE AND SCRIPTS -->
-	<link rel="stylesheet" href="styles2.css" />
+	<link rel="stylesheet" href="./styles/styles.css" />
 	<script type="text/javascript" src="./scripts/jquery-3.3.1.js"></script>
 	<script type="text/javascript" src="./scripts/js-main.js"></script>
 </head>
 
 <body>
 
-<img src="./graphics/name icon.png" style="display: none" /> <!-- INCLUDED FOR DIV RESIZING IN JQUERY -->
-
 	<header>
-		
+
+        <!-- NAVIAGTION MENU -->
 		<ul id="menu">
 			<a id="icon" href="#"></a>
 			<div id="menu-items">
@@ -38,32 +37,27 @@ For inquiries, please contact jacobskrol@gmail.com
 				<div class="drop-box">
 					<li><a href="#" class="drop">Resume</a></li>
 					<div class="drop-content">
-						<a href="#">Work Experience</a>
-						<a href="#">Education</a>
-						<a href="#">Skills</a>
-						<a href="#">Projects</a>
-					</div>
-				</div>
-				<div class="drop-box">
-					<li><a href="#" class="drop">CV</a></li>
-					<div class="drop-content">
-						<a href="#">Link 1</a>
-						<a href="#">Link 2</a>
-						<a href="#">Link 3</a>
+						<a href="#education-block">Education</a>
+						<a href="#experience-block">Experience</a>
+						<a href="#skills-block">Skills</a>
+						<a href="#projects-block">Projects</a>
 					</div>
 				</div>
 				<div class="drop-box">
 					<li><a href="#" class="drop">Projects</a></li>
 					<div class="drop-content">
-						<a href="#">MCL</a>
-						<a href="#">Personal</a>
-						<a href="#">Web Development</a>
+                        <a href="#disks-block">Disk Packings</a>
+                        <a href="#web-block">Web Development</a>
+						<a href="#wikipedia-block">Wikipedia</a>
+                        <a href="#collatz-block">Collatz Conjecture</a>
+                        <a href="#coumarin-102-block">Coumarin 102</a>
 					</div>
 				</div>
 				<li><a href="#">Contact</a></li>
 			</div>
 		</ul>
-		
+
+        <!-- HEADER CONTENT: IMG, NAME, LOGO -->
 		<div class="cover-image">
 		<div class="overlay">
 			<div id="name-tag">
@@ -71,112 +65,597 @@ For inquiries, please contact jacobskrol@gmail.com
 				<div class="h-line"></div>
 				<h2 class="subtitle">Undergraduate, University of Illinois at Chicago</h2>
 			</div>
+            <div id="corner-logo-container">
+                <img id="corner-logo" src="./graphics/uic-full-logo-2.png" />
+            </div>
 		</div>
 		</div>
-		
+
 	</header>
-	
-	<div class="content-block color1">
-		<table class="columns narrow">
-			<thead><td colspan="2">bio.</td></thead>
-			<tr>
-				<td>
-					<img id="portrait" src="./graphics/Jacob Circle.png" alt="Photo of me" />
-				</td>
-				<td>
-					<h2>Jacob Krol</h2>
-					<p>Hello! I am currently studying Mathematics, Computer Science, and French at the University of Illinois at Chicago. Outside of class, my extra-curricular activities include various sports and student organizations, most notably being my large contribution to the UIC Speech Team.</p>
-				</td>
-			</tr>
-		</table>
-	</div>
-	
-	<div class="side-scroll-outer">
-	<div class="side-scroll-inner">
-	<div class="content-block color2">
-		<table class="columns narrow">
-			<thead><td colspan="10">resume.</td></thead>
-			<tr>
-				<td>
-					<h2>General Backgrounds</h2>
-					<p>I have created this website for easier navigation and more thorough detailing of my experiences. To see more details, please visit my full-length <a href="#">resume page</a>, or feel free to <a href="#">download</a> a version as a PDF.</p>
-					<p><i>Last updated: December 2018</i></p>
-				</td>
-				<td>
-					<img id="resume-pic" src="./graphics/resume5.png" />
-				</td>
-			</tr>
-		</table>
-	</div>
-	
-	<div class="content-block color3">
-		<table class="columns narrow">
-			<thead><td colspan="10">cv.</td></thead>
-			<tr>
-				<td>
-					<h2>Relevant Experience</h2>
-					<p>My curriculum vitae will feature many more experiences and more work than my resume, and it will have a stronger focus on the mathematical and computer science aspects of my background. To see it in longer details, visit the <a href="#">cv page</a>, or feel free to <a href="#">download</a> a version as a PDF.</p>
-					<p><i>Last updated: April 2018</i></p>
-				</td>
-				<td>
-					<img id="cv-pic" src="./graphics/cv1.png" />
-				</td>
-			</tr>
-		</table>
-	</div>
-	
-	<div class="content-block color2">
-		<table class="columns narrow">
-			<thead><td colspan="10">projects.</td></thead>
-			<tr>
-				<td>
-					<h2>Field Work</h2>
-					<p>All of my previous and current projects span various fields within mathematics and computer science. Find some of them featured on my <a href="#">GitHub page</a>, or visit my <a href="#">projects page</a> on this site.</p>
-					<p><i>Last updated: December 2018</i></p>
-				</td>
-				<td>
-					<img id="project-gif" src="./graphics/trifolium-mechanism.gif" />
-				</td>
-			</tr>
-		</table>
-	</div>
-	
-	<div class="content-block color3">
-		<table id="contact" class="columns narrow">
-			<thead><td colspan="10">contact.</td></thead>
-			<tr>
-				<td><h2>Keep in Touch</h2></td>
-			</tr>
-			<tbody class="two-col-center">
-				<tr>
-					<td>email.</td>
-					<td>jacobskrol@gmail.com</td>
-				</tr>
-				<tr>
-					<td>phone.</td>
-					<td>630-277-0867</td>
-				</tr>
-				<tr>
-					<td>location.</td>
-					<td>Chicago, IL, 60607</td>
-				</tr>
-				<tr>
-					<td>github.</td>
-					<td><a href="#">./JacobKrol</a></td>
-				</tr>
-				<tr>
-					<td>linkedin.</td>
-					<td><a href="#">Jacob Krol</a></td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-	</div>
-	</div>
-	
-	<footer class="content-block color1">
-		<h2><center>Let's Keep in Touch!</center></h2>
-	</footer>
+
+    <!-- START OF BODY -->
+    <div class="cover-image">
+    <div class="overlay">
+
+        <!-- BIOGRAPHY BLOCK -->
+    	<div id="bio-block" class="content-block color1">
+            <div class="content-section">
+                <div class="content-box-title">
+                    <h3>bio.</h3>
+                </div>
+
+                <div class="content-box-group">
+                    <div class="content-row">
+                        <div class="content-box">
+                            <img id="portrait" src="./graphics/Jacob Circle.png" alt="Photo of me" />
+                        </div>
+
+                        <div class="content-box">
+                            <h2>Jacob Krol</h2>
+                            <p>Hello! I am currently studying Mathematics, Computer Science, and
+                                French at the University of Illinois at Chicago. Outside of class,
+                                my extra-curricular activities include various sports and student
+                                organizations, most notably being my large contribution to the UIC
+                                Speech Team.</p>
+                            <p>My current research interest is the appearance of 2<sup>4</sup> in
+                                Collatz chains, a project which I have been working on independently
+                                for the duration of my undergraduate career. I have also worked on
+                                the Efficiency of Planar Disk Packings and the Wikipedia Illustration
+                                Task Force in the Mathematical Computing Laboratory at UIC.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- EDUCATION BLOCK -->
+        <div id="education-block" class="content-block color2">
+            <div class="content-section">
+
+                <div class="content-box-title">
+                    <h3>education.</h3>
+                </div>
+
+                <div class="content-box-group">
+
+                    <div class="content-row">
+
+                        <div class="content-box left-small-card">
+                            <p>University of Illinois at Chicago</p>
+                            <p>Chicago, IL</p>
+                            <p>Expected: December 2019</p>
+                        </div>
+
+                        <div class="content-box right-large-card">
+                            <p>BS in Mathematics and Computer Science</p>
+                            <p>BA in French and Francophone Studies</p>
+                            <ul>
+                                <li>Honors College</li>
+                                <li>President's Award Program STEM</li>
+                            </ul>
+                            <p>CUMULATIVE GPA 3.73</p>
+                            <p>MAJOR GPA 4.00</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- EDUCATION BLOCK -->
+        <div id="experience-block" class="content-block color3">
+            <div class="content-section">
+
+                <div class="content-box-title">
+                    <h3>experience.</h3>
+                </div>
+
+                <div class="content-box-group">
+
+                    <div class="content-row">
+                        <div class="content-box left-small-card">
+                            <p>Wolcott, Wood, and Taylor Inc.</p>
+                            <p>Chicago, IL</p>
+                            <p>June 2017 - Present</p>
+                        </div>
+
+                        <div class="content-box right-large-card stretch-box">
+                            <p>Charge Entry Specialist, Insurance Verification Specialist</p>
+                            <ul>
+                                <li>Trained in both departments to assist based on office deadlines and needs</li>
+                                <li>Oversee the entry and review of over $2,000,000 worth of patient visits monthly</li>
+                                <li>Perform month-over-month at 210% of the charge entry department average productivity output</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="content-row">
+                        <div class="content-box left-small-card">
+                            <p>L'Espace Parisien Pour l'Insertion</p>
+                            <p>Paris, France</p>
+                            <p>June 2019 - July 2019</p>
+                        </div>
+
+                        <div class="content-box right-large-card stretch-box">
+                            <p>Intern through CEA Study Abroad</p>
+                            <ul>
+                                <li>Communicate exclusively in French to coworkers, clients, and other organizations</li>
+                                <li>Research improvement of social aid distribution networks through computer models</li>
+                                <li>Cooperate with individuals of economically- and socially-disadvantaged groups to provide resources to improve quality of life</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="content-row">
+
+                        <div class="content-box left-small-card">
+                            <p>University of Illinois at Chicago</p>
+                            <p>Chicago, IL</p>
+                            <p>Spring 2017, Fall 2018</p>
+                        </div>
+
+                        <div class="content-box right-large-card stretch-box">
+                            <p>Teaching Aide</p>
+                            <ul>
+                                <li>Create answer keys, rubrics, and determine point allocation independently</li>
+                                <li>Grade and comment over 300 calculus student quizzes weekly</li>
+                                <li>Develop time-allocation along own schedule to complete the work</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+    	</div>
+
+        <!-- SKILLS BLOCK -->
+        <div id="skills-block" class="content-block color1">
+            <div class="content-section">
+
+                <div class="content-box-title">
+                    <h3>skills.</h3>
+                </div>
+
+                <div class="content-box-group">
+
+                    <div class="content-column-container">
+                        <div class="content-column">
+                            <div class="content-box-subtitle">
+                                <h3>programming.</h3>
+                            </div>
+
+                            <div class="content-column-container">
+
+                                <div class="content-column">
+                                    <div class="content-box">
+                                        <div class="skill-box">
+                                            <p>Python</p>
+                                            <span class="nobr">
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="content-box">
+                                        <div class="skill-box">
+                                            <p>C++</p>
+                                            <span class="nobr">
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="content-box">
+                                        <div class="skill-box">
+                                            <p>HTML</p>
+                                            <span class="nobr">
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="content-box">
+                                        <div class="skill-box">
+                                            <p>CSS</p>
+                                            <span class="nobr">
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="content-box">
+                                        <div class="skill-box">
+                                            <p>JavaScript</p>
+                                            <span class="nobr">
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content-column">
+
+                                    <div class="content-box">
+                                        <div class="skill-box">
+                                            <p>MATLAB</p>
+                                            <span class="nobr">
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="content-box">
+                                        <div class="skill-box">
+                                            <p>SageMath</p>
+                                            <span class="nobr">
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="content-box">
+                                        <div class="skill-box">
+                                            <p>jQuery</p>
+                                            <span class="nobr">
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="star"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="content-box">
+                                        <div class="skill-box">
+                                            <p>MySQL</p>
+                                            <span class="nobr">
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="star"></span>
+                                                <span class="star"></span>
+                                                <span class="star"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="content-box">
+                                        <div class="skill-box">
+                                            <p>Java</p>
+                                            <span class="nobr">
+                                                <span class="fill star"></span>
+                                                <span class="fill star"></span>
+                                                <span class="star"></span>
+                                                <span class="star"></span>
+                                                <span class="star"></span>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="content-column">
+                            <div class="content-box-subtitle">
+                                <h3>software.</h3>
+                            </div>
+
+                            <div class="content-box">
+                                <div class="skill-box">
+                                    <p>Microsoft Office</p>
+                                    <span class="nobr">
+                                        <span class="fill star"></span>
+                                        <span class="fill star"></span>
+                                        <span class="fill star"></span>
+                                        <span class="fill star"></span>
+                                        <span class="fill star"></span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="content-box">
+                                <div class="skill-box">
+                                    <p>LaTeX</p>
+                                    <span class="nobr">
+                                        <span class="fill star"></span>
+                                        <span class="fill star"></span>
+                                        <span class="fill star"></span>
+                                        <span class="fill star"></span>
+                                        <span class="star"></span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="content-box">
+                                <div class="skill-box">
+                                    <p>Arduino</p>
+                                    <span class="nobr">
+                                        <span class="fill star"></span>
+                                        <span class="fill star"></span>
+                                        <span class="fill star"></span>
+                                        <span class="fill star"></span>
+                                        <span class="star"></span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="content-box">
+                                <div class="skill-box">
+                                    <p>Vim</p>
+                                    <span class="nobr">
+                                        <span class="fill star"></span>
+                                        <span class="fill star"></span>
+                                        <span class="fill star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="content-box">
+                                <div class="skill-box">
+                                    <p>Git</p>
+                                    <span class="nobr">
+                                        <span class="fill star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                        <span class="star"></span>
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="content-column">
+                            <div class="content-box-subtitle">
+                                <h3>additional.</h3>
+                            </div>
+
+                            <div class="content-box">
+                                <div class="skill-box skill-text">
+                                    <p>French</p>
+                                    <ul>
+                                        <li>Professional Working Proficiency <span class="nobr">(ILR Scale)</span></li>
+                                        <li>C1 on CEFR</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="content-box">
+                                <div class="skill-box skill-text">
+                                    <p>Front-End Web Development</p>
+                                    <ul>
+                                        <li>Built this site on bare HTML, CSS, JS, jQuery</li>
+                                        <li>Client build on <a href="https://uicspeech.com/" target="_blank">designing software</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-column">
+                            <div class="content-box-subtitle">
+                                <h3>soft skills.</h3>
+                            </div>
+
+                            <div class="content-box">
+                                <div class="skill-box skill-text">
+                                    <p>Public Speaking</p>
+                                    <ul>
+                                        <li>Nationally-ranked speech team <span class="nobr">(5 years)</span></li>
+                                        <li>Limited preparation specialty</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="content-box">
+                                <div class="skill-box skill-text">
+                                    <p>Leadership
+                                    <ul>
+                                        <li>UIC Speech Team - Caption Head, Secretary, Website Designer, Fundraising Director <span class="nobr">(3 years)</span></li>
+                                        <li>UIC Bioengineering Student Journal - Reviewer <span class="nobr">(1 year)</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROJECTS BLOCK -->
+        <div id="projects-block" class="content-block color2">
+            <div class="content-section">
+
+                <div class="content-box-title">
+                    <h3>projects.</h3>
+                </div>
+                <div id="disks-block" class="content-box-group">
+                    <div class="content-box-subtitle">
+                        <h3>Efficiency of Planar Disk Packings</h3>
+                    </div>
+                    <div class="content-row">
+                        <div class="content-box large-left-card">
+                            <p><b>Advisor:</b> <a href="mailto:amohaj2@uic.edu" target="_blank">Ali Mohajer</a></p>
+                            <p><b>Sponsoring Organization:</b> <a href="https://mcl.math.uic.edu/" target="_blank">Math Computing Lab, UIC</a></p>
+                            <p><i>January 2018 - January 2019</i></p>
+                            <ul>
+                                <li>This research pursues identifying the ideal ratios of both disk size and disk amounts in an infinite plane that provide an optimization of packing density.</li>
+                                <li>Important concepts have included Voronoi decompositions and geometric relationships in programming, using Python, JavaScript, and C++</li>
+                            </ul>
+                        </div>
+                        <div class="content-box right-media-card">
+                            <img src="./graphics/disks-example.png" />
+                        </div>
+                    </div>
+                </div>
+
+                <div id="web-block" class="content-box-group">
+                    <div class="content-box-subtitle">
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="content-row">
+                        <div class="content-box large-left-card">
+                            <p>Personal Project</p>
+                            <p><i>Spring 2018 - present</i></p>
+                            <ul>
+                                <li>This project's main objective is to further my understanding of web development tools
+                                    in addition to contributing to alleviating larger community web presence needs</li>
+                                <li>Requisites have included self-teaching myself HTML, CSS, JavaScript (through ES 6), and jQuery to fluency.
+                                    Future goals on this project include back-end software such as Express, MySQL tables, and Node.js</li>
+                            </ul>
+                        </div>
+                        <!-- <div class="content-box right-media-card">
+                            <img src="" />
+                        </div> -->
+                    </div>
+                </div>
+
+                <div id="wikipedia-block" class="content-box-group">
+                    <div class="content-box-subtitle">
+                        <h3>Wikipedia Illustration Task Force</h3>
+                    </div>
+                    <div class="content-row">
+                        <div class="content-box large-left-card">
+                            <p><b>Advisor:</b> <a href="http://homepages.math.uic.edu/~jan/" target="_blank">Jan Verschelde</a></p>
+                            <p><b>Sponsoring Organization:</b> <a href="https://mcl.math.uic.edu/" target="_blank">Math Computing Lab, UIC</a></p>
+                            <p><i>August 2017 - December 2017</i></p>
+                            <ul>
+                                <li>Considering a lack of diagrams on high-level mathematics wiki pages, the objective of
+                                    this project was to comprehend one of these concepts and develop visualizations for the page.</li>
+                                <li>Important concepts included Kempe’s Universality Theorem, parameterization of trigonometric
+                                    functions, serial chain composition, and mechanical gearing ratios, using Sage Math.</li>
+                            </ul>
+                        </div>
+                        <div class="content-box right-media-card">
+                            <img src="./graphics/trifolium-mechanism.gif" />
+                        </div>
+                    </div>
+                </div>
+
+                <div id="collatz-block" class="content-box-group">
+                    <div class="content-box-subtitle">
+                        <h3>Analysis on the Collatz Conjecture</h3>
+                    </div>
+                    <div class="content-row">
+                        <div class="content-box large-left-card">
+                            <p>Personal Project</p>
+                            <p><i>Fall 2016 - present</i></p>
+                            <ul>
+                                <li>This project allows for further development of my programming and problem-solving skills,
+                                    implementation of pure mathematics in computer science, and has a larger goal of uncovering
+                                    new patterns in the conjecture.</li>
+                                <li>Relevant concepts include Number Theory, the Collatz Conjecture, and graphing numerical data,
+                                    using MATLAB.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="coumarin-102-block" class="content-box-group">
+                    <div class="content-box-subtitle">
+                        <h3>Studying Fluorescence of Coumarin 102 after NaOH Quenching</h3>
+                    </div>
+                    <div class="content-row">
+                        <div class="content-box large-left-card">
+                            <p><b>Advisor:</b> <a href="https://chem.uic.edu/profiles/donald-j-wink/" target="_blank">Donald Wink</a></p>
+                            <p><b>Sponsoring Organization:</b> <a href="https://stem.uic.edu/about/" target="_blank">PAP STEM Research Initiative, UIC</a></p>
+                            <ul>
+                                <li>This research strove to analyze rationale for variance in fluorescence of mixtures
+                                    including amounts of Coumarin 102, NaOH, and a buffer due to quenching.</li>
+                                <li>Important concepts included chemical fluorescence, the anatomy of light waves, and
+                                    fluorescence quenching.</li>
+                            </ul>
+                        </div>
+                        <div class="content-box right-media-card">
+                            <img src="./graphics/colab-photo.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT BLOCK -->
+        <div class="content-block color3">
+            <div class="content-section">
+
+                <div class="content-box-title">
+                    <h3>contact.</h3>
+                </div>
+
+                <div class="content-box-group">
+                    <div class="content-column-container contact-container">
+                        <div class="content-column">
+                            <!-- <div class="content-box-subtitle">
+                                <h3>Let's Keep in Touch!</h3>
+                            </div> -->
+                            <div class="content-box vert-align">
+                                <img class="link-logo" src="./graphics/gmail-logo.png" />
+                                <p>JacobSKrol@gmail.com</p>
+                            </div>
+                            <div class="content-box vert-align">
+                                <img class="link-logo" src="./graphics/phone-logo.png" />
+                                <p>(630) 277-0867</p>
+                            </div>
+                            <div class="content-box vert-align">
+                                <img class="link-logo" src="./graphics/github-logo.png" />
+                                <a href="https://github.com/JacobKrol/">./JacobKrol</a>
+                            </div>
+                            <div class="content-box vert-align">
+                                <img class="link-logo" src="./graphics/linkedin-logo.png" />
+                                <a href="https://www.linkedin.com/in/jacob-krol-a4358414a/">Jacob Krol</a>
+                            </div>
+                            <div class="content-box vert-align">
+                                <img class="link-logo" src="./graphics/pin-logo.png" />
+                                <p>Chicago, IL, 60607</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
 
 </body>
 
