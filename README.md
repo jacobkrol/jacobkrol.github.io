@@ -1,4 +1,4 @@
-# Jacob Krol: Resume and Information Page
+# Jacob Krol: The Web Development Journey
 
 Welcome to my GitHub! This is the host repository of my main webpage, [jacobkrol.github.io](https://jacobkrol.github.io/). This isn't my profile, but I'd like to share how my webpage got to be what it is today.
 
@@ -58,8 +58,6 @@ With basic HTML, CSS, and JavaScript, I was able to create my very first resume 
 
 ![Screenshot unable to load](https://raw.githubusercontent.com/jacobkrol/jacobkrol.github.io/master/non-webpage/first-design.png)
 
-### First Redesign
-
 While revising my code, my skills improved, and I was able to better and better notice glaring mistakes like missing cross-browser compatibility, mobile-support, and misalignment galore. 
 
 <details><summary>Expand if you dare</summary>
@@ -78,7 +76,43 @@ While revising my code, my skills improved, and I was able to better and better 
 ```
 </details>
 
-This inspired me to start all over again. I created blank files and got to work on a more modern, responsive, and responsible design. I may very well redesign my webpage more times, but this was a crucial step in the process of understanding that sometimes coding with an older version of yourself is slower than coding all alone with your new skillset.
+### First Redesign
+
+The problems in the first design inspired me to start all over again. I created blank files and got to work on a more modern, responsive, and responsible design. I may very well redesign my webpage more times, but this was a crucial step in the process of understanding that sometimes coding with an older version of yourself is slower than coding all alone with your new skillset.
+
+<details><summary>Not to brag but...</summary>
+
+My CSS improved a bit.
+```css
+.skill-box:not(.skill-text) > *:nth-child(2) {
+    margin-left: 20px;
+}
+```
+</details>
+
+And after I read that older version of Internet Explorer would struggle with `display: table` I learned `flex-box` inside-out and even learned the importance of pre-fixes.
+
+<details><summary>Example from my stylesheet</summary>
+
+```css
+.vert-align {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+```
+</details>
+
+\* All of this said, I have improved, but have a long way to go. If there are still coding conventions broken here, or better ways to handle my webpage's code, please contact me at JacobSKrol@gmail.com so I can learn and modify appropriately.
 
 ### The Big Realization
 
