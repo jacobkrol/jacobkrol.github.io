@@ -4,7 +4,7 @@ Welcome to my GitHub! This is the host repository of my main webpage, [jacobkrol
 
 ### Learning JavaScript
 
-Tasked with creating a physics engine to manipulate disks in a plane for my [Efficiency of Planar Disk Packings](https://github.com/jacobkrol/Planar-Disk-Packing/) project in Spring 2018, I turned to canvas objects using JavaScript. I learned they could be a way to quickly make visuals for my code, and I took off. Using YouTube, Lynda.com, and print references, I was able to turn lots of trial-and-error into a new coding language for my repertoire. By the end of the project, I had created an array of [fun, interactive tools](https://github.com/jacobkrol/Planar-Disk-Packing/Spring%202018/JS%20Tools) to visualize parts of our problem.
+Tasked with creating a physics engine to manipulate disks in a plane for my [Efficiency of Planar Disk Packings](https://github.com/jacobkrol/Planar-Disk-Packing/) project in Spring 2018, I turned to canvas objects using JavaScript. I learned they could be a way to quickly make visuals for my code, and I took off. Using YouTube, Lynda.com, and print references, I was able to turn lots of trial-and-error into a new coding language for my repertoire. By the end of the project, I had created an array of [fun, interactive tools](https://github.com/jacobkrol/Planar-Disk-Packing/tree/master/Spring%202018/JS%20Tools) to visualize parts of our problem.
 
 Sure, there were plenty of mistakes. I needed to learn ES 6 notation for `let` and `const` declarations, and more importantly, why to avoid keeping so many variables in the global scope.
 
@@ -90,7 +90,7 @@ My CSS improved a bit.
 ```
 </details>
 
-And after I read that older version of Internet Explorer would struggle with `display: table` I learned `flex-box` inside-out and even learned the importance of pre-fixes.
+And after I read that older version of Internet Explorer would struggle with `display: table` I learned `flex-box` inside-out and even learned the importance of prefixes.
 
 <details><summary>Example from my stylesheet</summary>
 
