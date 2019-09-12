@@ -56,7 +56,7 @@ Once I was on my way with JavaScript, I added lessons from similar sources as JS
 
 With basic HTML, CSS, and JavaScript, I was able to create my very first resume website, coded from the very bottom.
 
-![Screenshot unable to load](https://github.com/jacobkrol/jacobkrol.github.io/non-webpage/first-design.png)
+![Screenshot unable to load](https://raw.githubusercontent.com/jacobkrol/jacobkrol.github.io/master/non-webpage/first-design.png)
 
 ### First Redesign
 
