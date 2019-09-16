@@ -20,6 +20,19 @@ body {
 
 /* START BACKGROUND IMAGE */
 
+.cover-image:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -2;
+  background: url('../graphics/chicago-uic-small-2.png') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
 .cover-image {
 	background-image: url('../graphics/chicago-uic-small-2.png');
 	background-size: cover;
@@ -415,7 +428,7 @@ header .subtitle {
 
 .left-large-card {
     text-align: left;
-    
+
     -webkit-box-flex: 1 !important;
     -ms-flex-positive: 1 !important;
     flex-grow: 1 !important;
