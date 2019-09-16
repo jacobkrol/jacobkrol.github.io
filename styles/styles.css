@@ -20,7 +20,7 @@ body {
 
 /* START BACKGROUND IMAGE */
 
-.cover-image:before {
+body:before {
   content: "";
   display: block;
   position: fixed;
