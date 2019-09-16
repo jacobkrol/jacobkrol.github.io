@@ -1,6 +1,6 @@
 # Jacob Krol: The Web Development Journey
 
-Welcome to my GitHub! This is the host repository of my main webpage, [jacobkrol.github.io](https://jacobkrol.github.io/). This isn't my profile, but I'd like to share how my webpage got to be what it is today.
+Welcome to my GitHub! This is the host repository of my main webpage, [jacobkrol.github.io](https://jacobkrol.github.io/). This isn't my profile page, but I'd like to share how my webpage got to be what it is today.
 
 ### Learning JavaScript
 
@@ -56,7 +56,7 @@ Once I was on my way with JavaScript, I added lessons from similar sources as JS
 
 With basic HTML, CSS, and JavaScript, I was able to create my very first resume website, coded from the very bottom.
 
-![Screenshot unable to load](https://raw.githubusercontent.com/jacobkrol/jacobkrol.github.io/master/non-webpage/first-design.png)
+![Screenshot unable to load](https://raw.githubusercontent.com/jacobkrol/jacobkrol.github.io/master/graphics/first-design.png)
 
 While revising my code, my skills improved, and I was able to better and better notice glaring mistakes like missing cross-browser compatibility, mobile-support, and misalignment galore. 
 
