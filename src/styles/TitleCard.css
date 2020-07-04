@@ -1,0 +1,41 @@
+/* START NAME TAG */
+
+.title-container {
+	position: relative;
+    display: table;
+	min-height: 100vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.title-cell {
+	position: relative;
+	text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.title {
+	font-size: 64px;
+	line-height: 1;
+	margin: 0;
+}
+
+@media only screen and (max-width: 604px) {
+	.title {
+		font-size: 54px;
+	}
+	.subtitle {
+		font-size: 18px;
+	}
+}
+
+.subtitle {
+	width: 50%;
+	margin: 0 auto;
+	font-size: 22px;
+}
+
+/* END NAME TAG */

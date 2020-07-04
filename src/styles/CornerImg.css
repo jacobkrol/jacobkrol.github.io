@@ -1,0 +1,11 @@
+/* START LOGO */
+
+#corner-logo {
+    height: 200px;
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* END LOGO */
