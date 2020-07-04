@@ -1,68 +1,134 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Jacob Krol: The Web Development Journey
 
-## Available Scripts
+Welcome to my GitHub! This is the host repository of my main webpage, [jacobkrol.github.io](https://jacobkrol.github.io/). This isn't my profile page, but I'd like to share how my webpage got to be what it is today.
 
-In the project directory, you can run:
+### Learning JavaScript
 
-### `yarn start`
+Tasked with creating a physics engine to manipulate disks in a plane for my [Efficiency of Planar Disk Packings](https://github.com/jacobkrol/Planar-Disk-Packing/) project in Spring 2018, I turned to canvas objects using JavaScript. I learned they could be a way to quickly make visuals for my code, and I took off. Using YouTube, Lynda.com, and print references, I was able to turn lots of trial-and-error into a new coding language for my repertoire. By the end of the project, I had created an array of [fun, interactive tools](https://github.com/jacobkrol/Planar-Disk-Packing/tree/master/Spring%202018/JS%20Tools) to visualize parts of our problem.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Sure, there were plenty of mistakes. I needed to learn ES 6 notation for `let` and `const` declarations, and more importantly, why to avoid keeping so many variables in the global scope.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<details><summary>Expand if you dare</summary>
 
-### `yarn test`
+Actual copy-paste from the global scope of my `GPE for Data Collection 1.js` program...
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```javascript
+var circles = [];
+var points = [];
+var density;
+var loops = 0;
+var densityWait = 50;
+var slider1, slider2;
+var generating = false;
+var radius;
+var altRadius = 0;
+var showCircles = true;
+var overShow, clickingShow, overHide, clickingHide, overClear, clickingClear = false;
+var overFix, overSettle, overNatural, overFreeze, overAll, overIntersect = false;
+var overPendFreeze, overRelease, clickingRelease, pendFreeze = false;
+var airSetting = "natural";
+var updateSetting = "all";
+var circleSize1 = 0; var circleSize2 = 0;
+var numIntersections = 0;
+var apxNumIntersections = 0;
+var palette = new function() {
+    this.width = 775;
+    this.height = 775;
+    this.area = this.width * this.height;
+}
+var t0, t1, time, sum;
+var timerUpdate = 100;
+var ticks;
+var timeEstimate;
 
-### `yarn build`
+//MAKE ALL NEW BUTTONS HERE **************************
+var buttons = []
+```
+</details>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The only direction left was upwards.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Adding HTML and CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once I was on my way with JavaScript, I added lessons from similar sources as JS to my schedule in order to pick up HTML and CSS. These, just like JavaScript and any language, have seen a great improvement over time as I have solified the foundation I set with them. I will cover those self-critiques and improvements in later sections.
 
-### `yarn eject`
+### First Design
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+With basic HTML, CSS, and JavaScript, I was able to create my very first resume website, coded from the very bottom.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot unable to load](https://raw.githubusercontent.com/jacobkrol/jacobkrol.github.io/master/graphics/first-design.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+While revising my code, my skills improved, and I was able to better and better notice glaring mistakes like missing cross-browser compatibility, mobile-support, and misalignment galore. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<details><summary>Expand if you dare</summary>
 
-## Learn More
+```css
+.content-indent {
+    margin-left: 20px;
+    margin-right: -20px;
+}
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+/* ... */
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#MCL-Description {
+    margin: 0 -30px 0 30px;
+}
+```
+</details>
 
-### Code Splitting
+### First Redesign
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+The problems in the first design inspired me to start all over again. I created blank files and got to work on a more modern, responsive, and responsible design. I may very well redesign my webpage more times, but this was a crucial step in the process of understanding that sometimes coding with an older version of yourself is slower than coding all alone with your new skillset.
 
-### Analyzing the Bundle Size
+<details><summary>Not to brag but...</summary>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+My CSS improved a bit.
+```css
+.skill-box:not(.skill-text) > *:nth-child(2) {
+    margin-left: 20px;
+}
+```
+</details>
 
-### Making a Progressive Web App
+And after I read that older version of Internet Explorer would struggle with `display: table` I learned `flex-box` inside-out and even learned the importance of prefixes.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+<details><summary>Example from my stylesheet</summary>
 
-### Advanced Configuration
+```css
+.vert-align {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
 
-### Deployment
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+```
+</details>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+\* All of this said, I have improved, but have a long way to go. If there are still coding conventions broken here, or better ways to handle my webpage's code, please contact me at JacobSKrol@gmail.com so I can learn and modify appropriately.
 
-### `yarn build` fails to minify
+### The Big Realization
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+There was a crucial moment in my web development career when I came across a random comment on a programming message board. In generic terms, it stated that a strictly-HTML webpage, like those used way back when, is never broken. Here, "broken" refers to a webpage which does not format, appear, or load correctly in particular environments. This is to say, a bare bones HTML page is cross-browser compatible, requires no dependencies, and flows on any sized screen. It's only when CSS and JS are added that suddenly issues arise. Essentially...
+
+> Browsers don't break webpages. Developers break webpages.
+
+Although I was upset that I couldn't blame all of my problems on old versions of Internet Explorer anymore, it helped my web development career massively. I began...
+
+- writing out my entire HTML structure before introducing CSS and `<div>` elements
+- checking the effect my CSS had on my projects one line at a time
+- taking ownership of misaligned content
+- reducing my dependency on JavaScript and jQuery to style my sheets when CSS seemed too complicated
+
+I cannot trace the source of this message - even though I know it isn't a one-of-a-kind thought - but whoever and wherever you are out there, thank you.
+
+### Sense of Pride
+
+Now that I've completed my latest redesign, I will without a doubt continue to work on my webpage. I will update content, formatting, and may even perform an entire redesign in the future from the ground-up again. However, in August of 2019, I was able to carry a sense of pride in the work I had created from blank files on my laptop and a litte bit of inspiration just 18 months later.
