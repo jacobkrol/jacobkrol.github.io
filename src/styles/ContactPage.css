@@ -1,0 +1,44 @@
+#contact-row svg {
+    height: 90px;
+    width: auto;
+    margin: 0 0 20px;
+}
+
+#contact-row p, #contact-row a {
+    margin: 0 0 20px;
+}
+
+#contact-row {
+    margin: 0 15% 20px;
+    justify-content: space-around;
+}
+
+#contact-row .content-column {
+    align-items: center;
+}
+
+@media only screen and (max-width: 604px) {
+    #contact-row {
+        margin: 0 5px 0;
+    }
+    #contact-row svg {
+        height: 60px;
+        margin-bottom: 10px;
+    }
+}
+
+#form-box {
+    margin: 0 15% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-box .content-box {
+    max-width: none;
+}
+
+@media only screen and (max-width: 604px) {
+    #form-box {
+        margin: 0;
+    }
+}

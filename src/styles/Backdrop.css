@@ -1,0 +1,27 @@
+/* START BACKGROUND IMAGE */
+
+.cover-image {
+	/* background-image: url('../graphics/chicago-uic-small-2.png'); */
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: -4;
+	min-height: 100vh;
+}
+
+.overlay {
+	/* background-color: rgba(40, 150, 160, 0.7); */
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: -2;
+	min-height: 100vh;
+}
+
+/* END BACKGROUND IMAGE */
