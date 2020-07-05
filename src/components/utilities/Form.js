@@ -32,7 +32,7 @@ class Form extends React.Component {
         let status = null;
         const errText = "An error has occurred submitting your feedback. Please verify your internet connection and try again later.\n\nError Code: ";
         //make api fetch call to server
-        fetch('https://herokuapp.com/add',requestOptions)
+        fetch('https://jacob-krol.herokuapp.com/add',requestOptions)
             //save http status, return response text
             .then(res => {
                 status = res.status;
