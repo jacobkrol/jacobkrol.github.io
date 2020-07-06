@@ -1,6 +1,6 @@
 # Jacob Krol: The Web Development Journey
 
-Welcome to my GitHub! This is the host repository of my main webpage, [jacobkrol.github.io/Jacob-Krol](https://jacobkrol.github.io/Jacob-Krol/). This isn't my profile page, but I'd like to share how my webpage got to be what it is today.
+Welcome to my GitHub! This is the host repository of my main webpage, [KrolJS](http://kroljs.com/). This isn't my profile page, but I'd like to share how my webpage got to be what it is today.
 
 ### Learning JavaScript
 
