@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.bdd8d47a.chunk.css",
+    "main.css": "/static/css/main.e3cb538e.chunk.css",
     "main.js": "/static/js/main.cd1bdc62.chunk.js",
     "main.js.map": "/static/js/main.cd1bdc62.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c8273c4c.js",
@@ -8,9 +8,9 @@
     "static/js/2.78155a70.chunk.js": "/static/js/2.78155a70.chunk.js",
     "static/js/2.78155a70.chunk.js.map": "/static/js/2.78155a70.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3799a27383ccf506f512d156bded8155.js": "/precache-manifest.3799a27383ccf506f512d156bded8155.js",
+    "precache-manifest.7a63f226790236e927e04d72ace51070.js": "/precache-manifest.7a63f226790236e927e04d72ace51070.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.bdd8d47a.chunk.css.map": "/static/css/main.bdd8d47a.chunk.css.map",
+    "static/css/main.e3cb538e.chunk.css.map": "/static/css/main.e3cb538e.chunk.css.map",
     "static/js/2.78155a70.chunk.js.LICENSE.txt": "/static/js/2.78155a70.chunk.js.LICENSE.txt",
     "static/media/afa-group.jpg": "/static/media/afa-group.8aab9e00.jpg",
     "static/media/asteroids.gif": "/static/media/asteroids.6455f3ac.gif",
@@ -45,7 +45,7 @@
   "entrypoints": [
     "static/js/runtime-main.c8273c4c.js",
     "static/js/2.78155a70.chunk.js",
-    "static/css/main.bdd8d47a.chunk.css",
+    "static/css/main.e3cb538e.chunk.css",
     "static/js/main.cd1bdc62.chunk.js"
   ]
 }
