@@ -4,8 +4,8 @@ import TitleCard from '../utilities/TitleCard';
 import CornerImg from '../utilities/CornerImg';
 import ContentBlock from '../utilities/ContentBlock';
 
-import UICImg from '../../graphics/chicago-uic-small-2.png';
-import PortraitImg from '../../graphics/jacob-circle.png';
+import UICImg from '../../graphics/chicago-uic-small-3.jpg';
+import PortraitImg from '../../graphics/jacob-2.jpeg';
 
 function HomePage() {
     return (
@@ -19,8 +19,7 @@ function HomePage() {
                         <img id="portrait" src={PortraitImg} alt="Jacob's Headshot" />
                     </div>
                     <div className="content-box">
-                        <h2>Jacob Krol</h2>
-                        <p>Hello! A recent graduate with bachelor degrees in tow, I am a software engineer with a focus in full-stack web development. I am passionate about bringing accessible, intuitive web apps to life through <a href="https://reactjs.org/docs/optimizing-performance.html">lightweight landing pages</a>, <a href="https://caniuse.com/">widely-supported CSS tools</a>, and <a href="https://reactjs.org">new frameworks like ReactJS</a>.</p>
+                        <p>Hello! I am a software engineer with a focus in full-stack web development. I am passionate about bringing accessible, intuitive web apps to life through <a href="https://reactjs.org/docs/optimizing-performance.html">lightweight landing pages</a>, <a href="https://caniuse.com/">widely-supported CSS tools</a>, and <a href="https://reactjs.org">new frameworks like ReactJS</a>. And pancakes.</p>
                     </div>
                 </div>
             </ContentBlock>
