@@ -25,123 +25,78 @@ function ResumePage() {
         <div>
             <Backdrop imgName={Code} overlayColor="" />
             <TitleCard title="Resume" subtitle="Contact me for the newest, print-friendly version!" size={66} />
-            <div className="content-row content-block-container">
-                <ContentBlock bg={0} title="education." size="medium">
-                    <div className="content-row">
-                        <div className="content-box left-small-card">
-                            <p>University of Illinois at Chicago</p>
-                            <p>Chicago, IL</p>
-                            <p>December 2019</p>
-                        </div>
-
-                        <div className="content-box right-large-card">
-                            <p>BS in Mathematics and Computer Science</p>
-                            <p>BA in French and Francophone Studies</p>
-                            <ul>
-                                <li>President's Award Program STEM</li>
-                                <li>Honors College, <em>magna cum laude</em></li>
-                            </ul>
-                            <p>CUMULATIVE GPA 3.8</p>
-                            <p>MAJOR GPA 4.0</p>
-                        </div>
-                    </div>
-                </ContentBlock>
-                <ContentBlock bg={1} title="awards." size="medium">
-                    <div className="content-box">
-                        <div className="spaced-ul">
-                            <span className="content-row"><IoMdTrophy className="bullet-icon" title="bullet point" /><p>Marie-Odile Sweetser Prize, <em>Department of French and Francophone Studies</em></p></span>
-                            <span className="content-row"><IoMdTrophy className="bullet-icon" title="bullet point" /><p>Twersky Award Nominee, <em>Department of Mathematics, Statistics, and Computer Science</em></p></span>
-                            <span className="content-row"><IoMdTrophy className="bullet-icon" title="bullet point" /><p>Illinois State Scholar, <em>Illinois Student Assistance Commission</em></p></span>
-                            <span className="content-row"><IoMdTrophy className="bullet-icon" title="bullet point" /><p>Impact Scholar, <em>Center for Student Involvement</em></p></span>
-                            <span className="content-row"><IoMdTrophy className="bullet-icon" title="bullet point" /><p>Dean’s List, <em>College of Liberal Arts & Sciences</em></p></span>
-                        </div>
-                    </div>
-                </ContentBlock>
-            </div>
             <ContentBlock bg={2} title="skills.">
                 <div className="content-row flex-start">
 
                     <div className="content-row">
-                    <SkillColumn title="front_end">
-                        <Skill name="HTML" stars={5} />
-                        <Skill name="CSS" stars={5} />
-                        <Skill name="Vanilla JS" stars={5} />
-                        <Skill name="React.js" stars={4} />
-                        <Skill name="jQuery" stars={4} />
+                    <SkillColumn title="languages">
+                        <Skill name="C#" stars={5} />
+                        <Skill name="JS ES6" stars={5} />
+                        <Skill name="HTML5" stars={5} />
+                        <Skill name="CSS3" stars={5} />
+                        <Skill name="Python" stars={4} />
+                        <Skill name="C++" stars={4} />
                     </SkillColumn>
-                    <SkillColumn title="back_end">
+                    <SkillColumn title="libs &amp; more">
+                        <Skill name=".NET" stars={5} />
+                        <Skill name="MassTransit" stars={5} />
+                        <Skill name="React.js" stars={5} />
                         <Skill name="Node.js" stars={5} />
-                        <Skill name="PostgreSQL" stars={4} />
-                        <Skill name="MySQL" stars={4} />
-                        <Skill name="SQLite" stars={3} />
-                        <Skill name="NoSQL" stars={2} />
+                        <Skill name="jQuery" stars={5} />
+                        <Skill name="Express" stars={5} />
                     </SkillColumn>
                     </div>
 
                     <div className="content-row">
-                    <SkillColumn title="addtl_langs">
-                        <Skill name="Python" stars={5} />
-                        <Skill name="SageMath" stars={5} />
-                        <Skill name="C++" stars={4} />
-                        <Skill name="MATLAB" stars={4} />
-                        <Skill name="Java" stars={2} />
+                    <SkillColumn title="data management">
+                        <Skill name="PostgreSQL" stars={5} />
+                        <Skill name="Redis Cache" stars={4} />
+                        <Skill name="MySQL" stars={4} />
+                        <Skill name="SQLite" stars={4} />
+                        <Skill name="CosmosDB" stars={4} />
+                        <Skill name="DynamoDB" stars={2} />
                     </SkillColumn>
                     <SkillColumn title="software">
                         <Skill name="M. Office" stars={5} />
-                        <Skill name="Git" stars={4} />
+                        <Skill name="VS Code" stars={5} />
+                        <Skill name="Git" stars={5} />
+                        <Skill name="Azure" stars={5} />
                         <Skill name="AWS" stars={3} />
-                        <Skill name="LaTeX" stars={3} />
-                        <Skill name="Vim" stars={3} />
+                        <Skill name="Docker" stars={2} />
                     </SkillColumn>
                     </div>
 
                     <div className="content-row">
                     <SkillColumn title="communication">
-                        <div className="content-box">
-                            <div className="skill-box skill-text">
-                                <p>French</p>
-                                <ul>
-                                    <li>Professional Working Proficiency <span className="nobr">(ILR Scale)</span></li>
-                                    <li>C1 on CEFR</li>
-                                </ul>
+                        <div className="content-row">
+                            <div className="content-box">
+                                <div className="skill-box skill-text">
+                                    <p>French</p>
+                                    <ul>
+                                        <li>BA in French and Francophone Studies</li>
+                                        <li>Professional Working Proficiency <span className="nobr">(ILR Scale)</span></li>
+                                        <li>C1 on CEFR</li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                        <div className="content-box">
-                            <div className="skill-box skill-text">
-                                <p>Public Speaking</p>
-                                <ul>
-                                    <li>Nationally-ranked speech team <span className="nobr">(4 years)</span></li>
-                                    <li>Limited preparation specialty</li>
-                                </ul>
+                            <div className="content-box">
+                                <div className="skill-box skill-text">
+                                    <p>Public Speaking</p>
+                                    <ul>
+                                        <li>Current competitive speech team coach at the collegiate level</li>
+                                        <li>Former competitor on a nationally-ranked speech team <span className="nobr">(4 years)</span></li>
+                                        <li>Limited preparation specialty</li>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
-                    </SkillColumn>
-                    <SkillColumn title="leadership">
-                        <div className="content-box">
-                            <div className="skill-box skill-text">
-                                <p>UIC Speech Team</p>
-                                <ul>
-                                    <li>President</li>
-                                    <li>Secretary / Treasurer</li>
-                                    <li>Fundraising Director</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="content-box">
-                            <div className="skill-box skill-text">
-                                <p>French Club at UIC</p>
-                                <ul>
-                                    <li>Web Administrator</li>
-                                    <li>Director of Events</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="content-box">
-                            <div className="skill-box skill-text">
-                                <p>UIC Bioengineering Student Journal</p>
-                                <ul>
-                                    <li>Reviewer</li>
-                                </ul>
+                            <div className="content-box">
+                                <div className="skill-box skill-text">
+                                    <p>Cross-Functional Communication</p>
+                                    <ul>
+                                        <li>Experience in translating between business and technology teams</li>
+                                        <li>Communication of infrastructure and time requirements with story point estimation to management and other stakeholders</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </SkillColumn>
@@ -150,6 +105,24 @@ function ResumePage() {
                 </div>
             </ContentBlock>
             <ContentBlock bg={3} title="experience.">
+            <div className="content-row">
+                    <div className="content-box left-small-card">
+                        <p>Tata Consultancy Services Ltd.</p>
+                        <p>Chicago, IL</p>
+                        <p>August 2020 - Present</p>
+                    </div>
+
+                    <div className="content-box right-large-card stretch-box">
+                        <p>Software Engineer</p>
+                        <ul>
+                            <li>Contribute to the test-driven development through CI/CD to Azure serverless back-end microservices built with C# in the .NET framework</li>
+                            <li>Coordinate virtually with on-shore and off-shore scrum team members to ensure effective utilization of client resources</li>
+                            <li>Design message architecture using Google Protobuf and POCO messages with serialization and deserialization sent via MassTransit</li>
+                        </ul>
+                    </div>
+
+                </div>
+
                 <div className="content-row">
                     <div className="content-box left-small-card">
                         <p>Wolcott, Wood, and Taylor Inc.</p>
@@ -205,6 +178,38 @@ function ResumePage() {
 
                 </div>
             </ContentBlock>
+            <div className="content-row content-block-container">
+                <ContentBlock bg={0} title="education." size="medium">
+                    <div className="content-row">
+                        <div className="content-box left-small-card">
+                            <p>University of Illinois at Chicago</p>
+                            <p>Chicago, IL</p>
+                        </div>
+
+                        <div className="content-box right-large-card">
+                            <p>BS in Mathematics and Computer Science</p>
+                            <p>BA in French and Francophone Studies</p>
+                            <ul>
+                                <li>President's Award Program STEM</li>
+                                <li>Honors College, <em>magna cum laude</em></li>
+                            </ul>
+                            <p>CUMULATIVE GPA 3.8</p>
+                            <p>MAJOR GPA 4.0</p>
+                        </div>
+                    </div>
+                </ContentBlock>
+                <ContentBlock bg={1} title="awards." size="medium">
+                    <div className="content-box">
+                        <div className="spaced-ul">
+                            <span className="content-row"><IoMdTrophy className="bullet-icon" title="bullet point" /><p>Marie-Odile Sweetser Prize, <em>Department of French and Francophone Studies</em></p></span>
+                            <span className="content-row"><IoMdTrophy className="bullet-icon" title="bullet point" /><p>Twersky Award Nominee, <em>Department of Mathematics, Statistics, and Computer Science</em></p></span>
+                            <span className="content-row"><IoMdTrophy className="bullet-icon" title="bullet point" /><p>Illinois State Scholar, <em>Illinois Student Assistance Commission</em></p></span>
+                            <span className="content-row"><IoMdTrophy className="bullet-icon" title="bullet point" /><p>Impact Scholar, <em>Center for Student Involvement</em></p></span>
+                            <span className="content-row"><IoMdTrophy className="bullet-icon" title="bullet point" /><p>Dean’s List, <em>College of Liberal Arts & Sciences</em></p></span>
+                        </div>
+                    </div>
+                </ContentBlock>
+            </div>
             <ContentBlock bg={0} title="publications.">
                 <div className="content-row">
                     <MediaCard date="November 13, 2019" title="On uniqueness and helicity conservation of weak solutions to the electron-MHD system" subtitle="Cornell University" link="https://arxiv.org/abs/1911.08285" imgName={Uniqueness} />

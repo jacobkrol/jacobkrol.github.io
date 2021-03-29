@@ -36,4 +36,8 @@
     width: 100%;
 }
 
+.skill-box.justify {
+    text-align: justify !important;
+}
+
 /* END STAR NOTATION */

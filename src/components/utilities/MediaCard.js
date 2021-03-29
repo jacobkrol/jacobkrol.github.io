@@ -24,7 +24,10 @@ function MediaCard(props) {
                         ? <span className="content-row"><FaRegFileCode title="languages" size={15} /><p>{props.language}</p></span>
                         : null
                 }
-                <p>See more <a style={{color: props.theme==="dark" ? "#EEE" : "#111"}} href={props.link} target="_blank" rel="noopener noreferrer">here</a></p>
+                {props.link
+                    ? <p>See more <a style={{color: props.theme==="dark" ? "#EEE" : "#111"}} href={props.link} target="_blank" rel="noopener noreferrer">here</a></p>
+                    : null
+                }
             </div>
         </div>
     )
