@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ad495c5.chunk.css",
-    "main.js": "/static/js/main.e9a7bf06.chunk.js",
-    "main.js.map": "/static/js/main.e9a7bf06.chunk.js.map",
+    "main.css": "/static/css/main.4f052df0.chunk.css",
+    "main.js": "/static/js/main.a4bcc8a3.chunk.js",
+    "main.js.map": "/static/js/main.a4bcc8a3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c8273c4c.js",
     "runtime-main.js.map": "/static/js/runtime-main.c8273c4c.js.map",
-    "static/js/2.542ed800.chunk.js": "/static/js/2.542ed800.chunk.js",
-    "static/js/2.542ed800.chunk.js.map": "/static/js/2.542ed800.chunk.js.map",
+    "static/js/2.7a92c2ab.chunk.js": "/static/js/2.7a92c2ab.chunk.js",
+    "static/js/2.7a92c2ab.chunk.js.map": "/static/js/2.7a92c2ab.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f800ae74f1d9bce7c4b1f04f7c2761f6.js": "/precache-manifest.f800ae74f1d9bce7c4b1f04f7c2761f6.js",
+    "precache-manifest.f890fa4f7944dd831f6953ebca0caf6c.js": "/precache-manifest.f890fa4f7944dd831f6953ebca0caf6c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.1ad495c5.chunk.css.map": "/static/css/main.1ad495c5.chunk.css.map",
-    "static/js/2.542ed800.chunk.js.LICENSE.txt": "/static/js/2.542ed800.chunk.js.LICENSE.txt",
+    "static/css/main.4f052df0.chunk.css.map": "/static/css/main.4f052df0.chunk.css.map",
+    "static/js/2.7a92c2ab.chunk.js.LICENSE.txt": "/static/js/2.7a92c2ab.chunk.js.LICENSE.txt",
     "static/media/afa-group.jpg": "/static/media/afa-group.8aab9e00.jpg",
     "static/media/asteroids.gif": "/static/media/asteroids.6455f3ac.gif",
     "static/media/capstone-report.pdf": "/static/media/capstone-report.961fdbb8.pdf",
@@ -23,6 +23,7 @@
     "static/media/cornell-paper-2.png": "/static/media/cornell-paper-2.6ad3a1fe.png",
     "static/media/disk-packing.gif": "/static/media/disk-packing.2d18db29.gif",
     "static/media/dynamic-ball-pit.gif": "/static/media/dynamic-ball-pit.5b895e20.gif",
+    "static/media/epa-logo.png": "/static/media/epa-logo.93e9095d.png",
     "static/media/french-club-example.png": "/static/media/french-club-example.b4ce68a2.png",
     "static/media/jacob-2.jpeg": "/static/media/jacob-2.b264271e.jpeg",
     "static/media/Nav.css": "/static/media/jk-brackets-64.2c84df93.png",
@@ -45,8 +46,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c8273c4c.js",
-    "static/js/2.542ed800.chunk.js",
-    "static/css/main.1ad495c5.chunk.css",
-    "static/js/main.e9a7bf06.chunk.js"
+    "static/js/2.7a92c2ab.chunk.js",
+    "static/css/main.4f052df0.chunk.css",
+    "static/js/main.a4bcc8a3.chunk.js"
   ]
 }
