@@ -1,4 +1,4 @@
-/* START NAME TAG */
+/* START GENERIC NAME TAG */
 
 .title-container {
 	position: relative;
@@ -38,4 +38,84 @@
 	font-size: 22px;
 }
 
-/* END NAME TAG */
+/* END GENERIC NAME TAG */
+
+/* START SVG NAME TAG */
+
+.title > svg {
+	height: 60px;
+	width: 340px;
+}
+
+#j, #acob, #s, #krol {
+	animation-duration: 10s;
+	animation-delay: 0s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+#acob {
+	animation-name: animate-acob;
+}
+
+#j {
+	animation-name: animate-j;
+}
+
+#s {
+	animation-name: animate-s;
+}
+
+#krol {
+	animation-name: animate-krol;
+}
+
+@keyframes animate-acob {
+	0%,30% {
+		opacity: 1;
+	}
+	50%,80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes animate-j {
+	0%,30% {
+		transform: translateX(0);
+	}
+	50%,80% {
+		transform: translateX(189px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes animate-s {
+	0%,30% {
+		transform: translateX(0);
+	}
+	50%,80% {
+		transform: translateX(46px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes animate-krol {
+	0%,30% {
+		transform: translateX(0);
+	}
+	50%,80% {
+		transform: translateX(-146px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+/* END SVG NAME TAG */

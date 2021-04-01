@@ -58,16 +58,35 @@
     }
     .content-box {
         text-align: left !important;
-        font-size: 0.9rem !important;
+        padding: 10px !important;
+        /* font-size: 0.9rem !important; */
+    }
+    .media-box {
+        padding: 0 !important;
+    }
+    .content-block-container {
+        margin: 0 !important;
+    }
+    .content-column {
+        margin: 0 !important;
     }
     .content-box ul {
         padding-left: 20px;
+    }
+    .content-block {
+        margin: 10px !important;
     }
     .content-block.medium {
         min-width: 225px;
     }
     .right-large-card {
         min-width: 250px !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .content-box * {
+        padding: 0.2em;
     }
 }
 

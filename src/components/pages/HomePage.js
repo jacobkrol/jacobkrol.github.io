@@ -5,13 +5,14 @@ import CornerImg from '../utilities/CornerImg';
 import ContentBlock from '../utilities/ContentBlock';
 
 import UICImg from '../../graphics/chicago-uic-small-3.jpg';
-import PortraitImg from '../../graphics/jacob-2.jpeg';
+import PortraitImg from '../../graphics/jacob-3.jpg';
+import NameTag from '../utilities/NameTag';
 
 function HomePage() {
     return (
         <div>
             <Backdrop imgName={UICImg} />
-            <TitleCard title="Jacob Krol" subtitle={["Full-Stack Web Developer","Short-Stack Pancake Lover"]} />
+            <TitleCard Icon={NameTag} subtitle={["Full-Stack Web Developer","Short-Stack Pancake Lover"]} />
             <CornerImg />
             <ContentBlock key={0} bg={0} title="bio." >
                 <div className="content-row">

@@ -8,10 +8,16 @@ import '../../styles/TitleCard.css';
 // props.subtitle (opt.) = string or array of strings for subtitles
 
 function TitleCard(props) {
+    const { Icon } = props;
     return (
         <div className="title-container" style={{minHeight: (props.size || 100) + "vh"}}>
             <div className="title-cell">
-                <h1 className="title">{props.title}</h1>
+                {props.title
+                    ? <h1 className="title">{props.title}</h1>
+                    : Icon
+                        ? <h1 className="title"><Icon /></h1>
+                        : null
+                }
                 <HLine />
                 {typeof props.subtitle === "object"
                     ? props.subtitle.map((s,i) => <h2 className="subtitle" key={i}>{s}</h2>)
