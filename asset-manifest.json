@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4f052df0.chunk.css",
-    "main.js": "/static/js/main.a4bcc8a3.chunk.js",
-    "main.js.map": "/static/js/main.a4bcc8a3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c8273c4c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c8273c4c.js.map",
-    "static/js/2.7a92c2ab.chunk.js": "/static/js/2.7a92c2ab.chunk.js",
-    "static/js/2.7a92c2ab.chunk.js.map": "/static/js/2.7a92c2ab.chunk.js.map",
+    "main.css": "/static/css/main.2fc7d2ce.chunk.css",
+    "main.js": "/static/js/main.6ac5f9e6.chunk.js",
+    "main.js.map": "/static/js/main.6ac5f9e6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ec8748c8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ec8748c8.js.map",
+    "static/js/2.3006be82.chunk.js": "/static/js/2.3006be82.chunk.js",
+    "static/js/2.3006be82.chunk.js.map": "/static/js/2.3006be82.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f890fa4f7944dd831f6953ebca0caf6c.js": "/precache-manifest.f890fa4f7944dd831f6953ebca0caf6c.js",
+    "precache-manifest.e5b1bf3f9b046de136d657aa0f7cbfeb.js": "/precache-manifest.e5b1bf3f9b046de136d657aa0f7cbfeb.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4f052df0.chunk.css.map": "/static/css/main.4f052df0.chunk.css.map",
-    "static/js/2.7a92c2ab.chunk.js.LICENSE.txt": "/static/js/2.7a92c2ab.chunk.js.LICENSE.txt",
+    "static/css/main.2fc7d2ce.chunk.css.map": "/static/css/main.2fc7d2ce.chunk.css.map",
+    "static/js/2.3006be82.chunk.js.LICENSE.txt": "/static/js/2.3006be82.chunk.js.LICENSE.txt",
     "static/media/afa-group.jpg": "/static/media/afa-group.8aab9e00.jpg",
     "static/media/asteroids.gif": "/static/media/asteroids.6455f3ac.gif",
     "static/media/capstone-report.pdf": "/static/media/capstone-report.961fdbb8.pdf",
@@ -25,7 +25,7 @@
     "static/media/dynamic-ball-pit.gif": "/static/media/dynamic-ball-pit.5b895e20.gif",
     "static/media/epa-logo.png": "/static/media/epa-logo.93e9095d.png",
     "static/media/french-club-example.png": "/static/media/french-club-example.b4ce68a2.png",
-    "static/media/jacob-2.jpeg": "/static/media/jacob-2.b264271e.jpeg",
+    "static/media/jacob-3.jpg": "/static/media/jacob-3.cd54f089.jpg",
     "static/media/Nav.css": "/static/media/jk-brackets-64.2c84df93.png",
     "static/media/js-gibberish.png": "/static/media/js-gibberish.313393c2.png",
     "static/media/lp-timer.png": "/static/media/lp-timer.b2ba75af.png",
@@ -45,9 +45,9 @@
     "static/media/zoommates.png": "/static/media/zoommates.9858e3dd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c8273c4c.js",
-    "static/js/2.7a92c2ab.chunk.js",
-    "static/css/main.4f052df0.chunk.css",
-    "static/js/main.a4bcc8a3.chunk.js"
+    "static/js/runtime-main.ec8748c8.js",
+    "static/js/2.3006be82.chunk.js",
+    "static/css/main.2fc7d2ce.chunk.css",
+    "static/js/main.6ac5f9e6.chunk.js"
   ]
 }
