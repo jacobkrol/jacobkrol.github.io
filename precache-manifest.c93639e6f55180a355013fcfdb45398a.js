@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "671c4b0ecbaad4d68e5f1dff4698a71f",
+    "revision": "c024f2e78003665fcb699e8254e95404",
     "url": "/index.html"
   },
   {
-    "revision": "7f4311ff0f96f5e35beb",
+    "revision": "853bf27e2f3b6a2751bd",
     "url": "/static/css/main.2fc7d2ce.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.3006be82.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f4311ff0f96f5e35beb",
-    "url": "/static/js/main.6ac5f9e6.chunk.js"
+    "revision": "853bf27e2f3b6a2751bd",
+    "url": "/static/js/main.4150b68d.chunk.js"
   },
   {
     "revision": "89b3343d6d7c7ea558d5",
@@ -128,8 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/source sans.5182da42.ttf"
   },
   {
-    "revision": "ffe79a7120c3aaba8ebbf06a72eea940",
-    "url": "/static/media/split-the-bill.ffe79a71.png"
+    "revision": "a5043c8df52f28514d4595e5af99b65c",
+    "url": "/static/media/split-the-bill-2.a5043c8d.jpg"
   },
   {
     "revision": "61d14dbf75238130082bd1da0af95a7c",
