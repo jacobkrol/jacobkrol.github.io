@@ -28,41 +28,48 @@ function ResumePage() {
             <ContentBlock bg={2} title="skills.">
                 <div className="content-row flex-start">
 
-                    <div className="content-row">
+                    <div className="content-row flex-start">
                     <SkillColumn title="languages">
                         <Skill name="C#" stars={5} />
                         <Skill name="JS ES6" stars={5} />
-                        <Skill name="HTML5" stars={5} />
-                        <Skill name="CSS3" stars={5} />
+                        <Skill name="HTML + CSS" stars={5} />
                         <Skill name="Python" stars={4} />
                         <Skill name="C++" stars={4} />
                     </SkillColumn>
-                    <SkillColumn title="libs &amp; more">
+                    <SkillColumn title="server libs">
                         <Skill name=".NET" stars={5} />
                         <Skill name="MassTransit" stars={5} />
-                        <Skill name="React.js" stars={5} />
                         <Skill name="Node.js" stars={5} />
-                        <Skill name="jQuery" stars={5} />
                         <Skill name="Express" stars={5} />
                     </SkillColumn>
                     </div>
 
-                    <div className="content-row">
-                    <SkillColumn title="data management">
-                        <Skill name="PostgreSQL" stars={5} />
-                        <Skill name="Redis Cache" stars={4} />
-                        <Skill name="MySQL" stars={4} />
-                        <Skill name="SQLite" stars={4} />
-                        <Skill name="CosmosDB" stars={4} />
-                        <Skill name="DynamoDB" stars={2} />
+                    <div className="content-row flex-start">
+                    <SkillColumn title="client libs">
+                        <Skill name="React.js" stars={5} />
+                        <Skill name="jQuery" stars={5} />
+                        <Skill name="ReGraph" stars={5} />
+                        <Skill name="Material UI" stars={5} />
                     </SkillColumn>
+                    <SkillColumn title="storage">
+                        <Skill name="RDBMS" stars={5} />
+                        <Skill name="Document" stars={4} />
+                        <Skill name="Key-Value" stars={4} />
+                        <Skill name="Graph" stars={2} />
+                    </SkillColumn>
+                    </div>
+
+                    <div className="content-row flex-start">
                     <SkillColumn title="software">
                         <Skill name="M. Office" stars={5} />
                         <Skill name="VS Code" stars={5} />
                         <Skill name="Git" stars={5} />
+                        <Skill name="Docker" stars={2} />
+                    </SkillColumn>
+                    <SkillColumn title="cloud">
                         <Skill name="Azure" stars={5} />
                         <Skill name="AWS" stars={3} />
-                        <Skill name="Docker" stars={2} />
+                        <Skill name="GCP" stars={3} />
                     </SkillColumn>
                     </div>
 
@@ -105,19 +112,37 @@ function ResumePage() {
                 </div>
             </ContentBlock>
             <ContentBlock bg={3} title="experience.">
-            <div className="content-row">
+                <div className="content-row">
+                    <div className="content-box left-small-card">
+                        <p>Ernst &amp; Young LLP</p>
+                        <p>Madison, WI</p>
+                        <p>June 2021 - Present</p>
+                    </div>
+
+                    <div className="content-box right-large-card stretch-box">
+                        <p>Senior - Technology Consulting</p>
+                        <ul>
+                            <li>Develop web applications across the stack, focusing on projects with React and emerging cloud technologies</li>
+                            <li>Support internal teams with RFP response materials as a subject matter expert and through development of made-to-order application demos</li>
+                            <li>Act as a cross-functional communication channel between technical scrum teams and business leaders</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div className="content-row">
                     <div className="content-box left-small-card">
                         <p>Tata Consultancy Services Ltd.</p>
                         <p>Chicago, IL</p>
-                        <p>August 2020 - Present</p>
+                        <p>August 2020 - May 2021</p>
                     </div>
 
                     <div className="content-box right-large-card stretch-box">
                         <p>Software Engineer</p>
                         <ul>
-                            <li>Contribute to the test-driven development through CI/CD to Azure serverless back-end microservices built with C# in the .NET framework</li>
-                            <li>Coordinate virtually with on-shore and off-shore scrum team members to ensure effective utilization of client resources</li>
-                            <li>Design message architecture using Google Protobuf and POCO messages with serialization and deserialization sent via MassTransit</li>
+                            <li>Contributed to the test-driven development through CI/CD to Azure serverless back-end microservices built with C# in the .NET framework</li>
+                            <li>Coordinated virtually with on-shore and off-shore scrum team members to ensure effective utilization of client resources</li>
+                            <li>Designed message architecture using Google Protobuf and POCO messages with serialization and deserialization sent via MassTransit</li>
                         </ul>
                     </div>
 

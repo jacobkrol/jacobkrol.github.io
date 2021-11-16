@@ -17,7 +17,7 @@ import Smove from '../../graphics/smove.gif';
 import LPTimer from '../../graphics/lp-timer.png';
 import EPALogo from '../../graphics/epa-logo.png';
 import Scoreboard from '../../graphics/scoreboard.png';
-import SplitTheBill from  '../../graphics/split-the-bill.png';
+import SplitTheBill from  '../../graphics/split-the-bill-2.jpg';
 import Chicago from '../../graphics/chicago-uic-small-2.png';
 import AptManager from '../../graphics/zoommates.png';
 import FrenchClub from '../../graphics/french-club-example.png';
@@ -80,9 +80,9 @@ function ProjectsPage() {
                 <ContentBlock title="adtl_websites." bg={2} size="medium">
                     <div className="content-row">
                         <MediaCard title="Jacob's Homepage" star={5} subtitle="Learn about me and what I am working on, and get in touch" language="ReactJS, Node.js, Express" imgName={Chicago} link="https://github.com/jacobkrol/jacobkrol.github.io" />
+                        <MediaCard title="Split The Bill" star={5} subtitle="Need to split a bill proportional to everyone's costs? This is the solution!" language="ReactJS" imgName={SplitTheBill} link="https://github.com/jacobkrol/Split-The-Bill" />
                         <MediaCard title="Apartment Manager" star={5} subtitle="Post, like, filter, and compare multiple apartment listings in one place" language="Node.js, Express, ReactJS" imgName={AptManager} link="https://github.com/jacobkrol/Apartment-Manager" />
                         <MediaCard title="FrenchClubUIC.com" star={5} subtitle="Public website produced for the French Club at UIC" language="HTML5, CSS" imgName={FrenchClub} link="http://frenchclubuic.com" />
-                        <MediaCard title="Split The Bill" star={4} subtitle="Need to split a bill proportional to everyone's costs? This is the solution!" language="JavaScript, HTML5, CSS" imgName={SplitTheBill} link="https://github.com/jacobkrol/splitthebill" />
                     </div>
                 </ContentBlock>
                 <ContentBlock title="maths." bg={0} size="medium">

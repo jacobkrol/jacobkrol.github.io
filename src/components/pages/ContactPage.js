@@ -28,7 +28,7 @@ function ContactPage() {
                     </div>
                     <div className="content-column">
                         <MdPersonPinCircle title="location" color="rgb(210,63,64)" />
-                        <p>Chicago, IL</p>
+                        <p>Madison, WI</p>
                     </div>
                 </div>
                 <div id="form-box">
