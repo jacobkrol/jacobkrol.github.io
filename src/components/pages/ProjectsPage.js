@@ -8,9 +8,11 @@ import ContentBlock from '../utilities/ContentBlock';
 import MediaCard from '../utilities/MediaCard';
 import Star from '../utilities/Star';
 
+import IllinoisLine from '../../graphics/illinois-line-teal.gif';
 import MazeGenerator from '../../graphics/maze-generator.gif';
 import CircleGrowth from '../../graphics/circle-growth.gif';
 import DynamicBallPit from '../../graphics/dynamic-ball-pit.gif';
+import Nertz from '../../graphics/nertz-demo.gif';
 import Asteroids from '../../graphics/asteroids.gif';
 import Snake from '../../graphics/snake.gif';
 import Smove from '../../graphics/smove.gif';
@@ -59,12 +61,14 @@ function ProjectsPage() {
                 <ContentBlock title="utilities." bg={3} size="medium">
                     <div className="content-row">
                         <MediaCard title="LP Timer" star={5} subtitle="A simple timer application with time signals to help the forensics community" language="ReactJS, Node.js, Express" imgName={LPTimer} link="https://kroljs.com/LP-Timer" />
+                        <MediaCard title="Split The Bill" star={5} subtitle="Need to split a bill proportional to everyone's costs? This is the solution!" language="ReactJS" imgName={SplitTheBill} link="https://github.com/jacobkrol/Split-The-Bill" />
                         <MediaCard title="Scoreboard" star={5} subtitle="Scoreboard interface for personal game nights" language="JavaScript, HTML5, CSS" imgName={Scoreboard} link="https://kroljs.com/Scoreboard" />
                         <MediaCard title="Extemp Panel App" star={3} subtitle="A web app to share and practice extemporaneous speaking prompts" language="ReactJS, Node.js, Express" imgName={EPALogo} />
                     </div>
                 </ContentBlock>
                 <ContentBlock title="games." bg={1} size="medium">
                     <div className="content-row">
+                        <MediaCard title="Nertz" star={4} subtitle="Compete against computer opponents in a game of Nertz" language="ReactJS, Node.js, Express" imgName={Nertz} link="https://github.com/jacobkrol/play-nertz-offline" />
                         <MediaCard title="Asteroids" theme="dark" star={4} subtitle="Play the classic arcade game Asteroids!" language="JavaScript" imgName={Asteroids} link="https://github.com/jacobkrol/Asteroids" />
                         <MediaCard title="Snake" star={4} subtitle="Play the classic game Snake" language="JavaScript" imgName={Snake} link="https://github.com/jacobkrol/Snake" />
                         <MediaCard title="Smove" star={4} subtitle="Navigate the incoming enemies to collect gold" language="JavaScript" imgName={Smove} link="https://github.com/jacobkrol/Smove" />
@@ -72,6 +76,7 @@ function ProjectsPage() {
                 </ContentBlock>
                 <ContentBlock title="wallpapers." bg={0} size="medium">
                     <div className="content-row">
+                        <MediaCard title="Line Art" star={4} subtitle="Generate mesmerizing line art in any shape" language="JavaScript" imgName={IllinoisLine} />
                         <MediaCard title="Mazes" star={4} subtitle="A variety of work with JavaScript canvas programs in relation to mazes" language="JavaScript" imgName={MazeGenerator} link="https://github.com/jacobkrol/Mazes" />
                         <MediaCard title="Circle Growth" star={4} subtitle="Screensaver design of colorful circle growth" language="JavaScript" imgName={CircleGrowth} link="https://github.com/jacobkrol/Circle-Growth" />
                         <MediaCard title="Dynamic Ball Pit" star={4} subtitle="A basic JavaScript program with interactive dots" language="JavaScript" imgName={DynamicBallPit} link="https://github.com/jacobkrol/Dynamic-Ball-Pit" />
@@ -80,7 +85,6 @@ function ProjectsPage() {
                 <ContentBlock title="adtl_websites." bg={2} size="medium">
                     <div className="content-row">
                         <MediaCard title="Jacob's Homepage" star={5} subtitle="Learn about me and what I am working on, and get in touch" language="ReactJS, Node.js, Express" imgName={Chicago} link="https://github.com/jacobkrol/jacobkrol.github.io" />
-                        <MediaCard title="Split The Bill" star={5} subtitle="Need to split a bill proportional to everyone's costs? This is the solution!" language="ReactJS" imgName={SplitTheBill} link="https://github.com/jacobkrol/Split-The-Bill" />
                         <MediaCard title="Apartment Manager" star={5} subtitle="Post, like, filter, and compare multiple apartment listings in one place" language="Node.js, Express, ReactJS" imgName={AptManager} link="https://github.com/jacobkrol/Apartment-Manager" />
                         <MediaCard title="FrenchClubUIC.com" star={5} subtitle="Public website produced for the French Club at UIC" language="HTML5, CSS" imgName={FrenchClub} link="http://frenchclubuic.com" />
                     </div>
