@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.289694d3.chunk.css",
-    "main.js": "/static/js/main.7f9c0a88.chunk.js",
-    "main.js.map": "/static/js/main.7f9c0a88.chunk.js.map",
+    "main.js": "/static/js/main.181b45e5.chunk.js",
+    "main.js.map": "/static/js/main.181b45e5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ec8748c8.js",
     "runtime-main.js.map": "/static/js/runtime-main.ec8748c8.js.map",
     "static/js/2.202c30a9.chunk.js": "/static/js/2.202c30a9.chunk.js",
     "static/js/2.202c30a9.chunk.js.map": "/static/js/2.202c30a9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.addc6e11272a471e4d46c848c0e45986.js": "/precache-manifest.addc6e11272a471e4d46c848c0e45986.js",
+    "precache-manifest.bdd3082bdab1158764caf844e4b00f63.js": "/precache-manifest.bdd3082bdab1158764caf844e4b00f63.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.289694d3.chunk.css.map": "/static/css/main.289694d3.chunk.css.map",
     "static/js/2.202c30a9.chunk.js.LICENSE.txt": "/static/js/2.202c30a9.chunk.js.LICENSE.txt",
@@ -42,7 +42,6 @@
     "static/media/scoreboard.png": "/static/media/scoreboard.bee97041.png",
     "static/media/smove.gif": "/static/media/smove.3d6d707c.gif",
     "static/media/snake.gif": "/static/media/snake.348288bd.gif",
-    "static/media/split-the-bill-2.jpg": "/static/media/split-the-bill-2.a5043c8d.jpg",
     "static/media/trifolium-mechanism.gif": "/static/media/trifolium-mechanism.61d14dbf.gif",
     "static/media/uic-full-logo-2.png": "/static/media/uic-full-logo-2.a3c71970.png",
     "static/media/uic-today-1.png": "/static/media/uic-today-1.201bbaf9.png",
@@ -53,6 +52,6 @@
     "static/js/runtime-main.ec8748c8.js",
     "static/js/2.202c30a9.chunk.js",
     "static/css/main.289694d3.chunk.css",
-    "static/js/main.7f9c0a88.chunk.js"
+    "static/js/main.181b45e5.chunk.js"
   ]
 }
