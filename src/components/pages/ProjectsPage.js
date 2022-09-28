@@ -19,7 +19,7 @@ import Smove from '../../graphics/smove.gif';
 import LPTimer from '../../graphics/lp-timer.png';
 import EPALogo from '../../graphics/epa-logo.png';
 import Scoreboard from '../../graphics/scoreboard.png';
-import SplitTheBill from  '../../graphics/split-the-bill-2.jpg';
+import SplitTheBill from  '../../graphics/split-the-bill.png';
 import Chicago from '../../graphics/chicago-uic-small-2.png';
 import AptManager from '../../graphics/zoommates.png';
 import FrenchClub from '../../graphics/french-club-example.png';
@@ -98,8 +98,8 @@ function ProjectsPage() {
                 <ContentBlock title="speech." bg={3} size="medium">
                     <div className="content-row">
                         <MediaCard title="LP Timer" star={5} subtitle="A simple timer application with time signals to help the forensics community" language="ReactJS, Node.js, Express" imgName={LPTimer} link="https://github.com/jacobkrol/LP-Timer" visit="https://kroljs.com/LP-Timer" />
+                        <MediaCard title="Example Book" star={5} subtitle="A web app to share and redeem impromptu examples" language="ReactJS, TypeScript, Firestore" imgName={ExampleBook} link="https://github.com/jacobkrol/Example-Book" visit="https://kroljs.com/Example-Book" />
                         <MediaCard title="Extemp Panel App" star={3} subtitle="A web app to share and practice extemporaneous speaking prompts" language="ReactJS, Node.js, Express" imgName={EPALogo} />
-                        <MediaCard title="Example Book" star={3} subtitle="A web app to share and redeem impromptu examples" language="ReactJS, TypeScript, Firestore" imgName={ExampleBook} />
                     </div>
                 </ContentBlock>
                 <ContentBlock title="adtl_websites." bg={2} size="medium">
