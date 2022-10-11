@@ -12,7 +12,13 @@ function MediaCard(props) {
                     ? <p>{props.date}</p>
                     : null
                 }
-                <span className="content-row">{props.star ? <Star fill={props.star} /> : null}<p><strong>{props.title}</strong></p></span>
+                <span className="content-row">
+                    {props.star ? <Star fill={props.star} /> : null}
+                    {props.visit || props.link 
+                        ? <a href={props.visit ?? props.link} target="_blank" rel="noopener noreferrer"><strong>{props.title}</strong></a>
+                        : <p><strong>{props.title}</strong></p>
+                    }
+                </span>
                 <p><em>{props.subtitle}</em></p>
                 {props.location
                     ? <span className="content-row"><MdPinDrop title="pin" size={15} /><p>{props.location}</p></span>
