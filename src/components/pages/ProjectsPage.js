@@ -33,6 +33,7 @@ import DesChiffres from '../../graphics/des-chiffres.png';
 import DesertWanderer from '../../graphics/desert-wanderer.png';
 import MazeRacer from '../../graphics/maze-racer.gif';
 import ExampleBook from '../../graphics/example-book.png';
+import MusicalLinguistics from '../../graphics/musical-linguistics.gif';
 
 function ProjectsPage() {
     return (
@@ -70,6 +71,7 @@ function ProjectsPage() {
                         <MediaCard title="Scoreboard" star={5} subtitle="Scoreboard interface for personal game nights" language="JavaScript, HTML, CSS" imgName={Scoreboard} link="https://github.com/jacobkrol/Scoreboard" visit="https://kroljs.com/Scoreboard" />
                         <MediaCard title="Knitty Gritty" star={4} subtitle="An installable app for counting stitches and rows on multiple projects" language="ReactJS" imgName={KnittyGritty} link="https://github.com/jacobkrol/KnittyGritty" visit="https://kroljs.com/KnittyGritty" />
                         <MediaCard title="ASCII Autostereogram" star={4} subtitle="Magic Eye? Step aside. Hide custom text in a stereogram block of text" language="ReactJS" imgName={Ascii} link="https://github.com/jacobkrol/JavascriptAsciiAutostereogram" visit="https://kroljs.com/JavascriptAsciiAutostereogram" />
+                        <MediaCard title="Musical Linguistics" star={4} subtitle="Turn any string of text into a musical mapping and listen to your words." language="ReactJS" imgName={MusicalLinguistics} link="https://github.com/jacobkrol/Musical-Linguistics" visit="https://kroljs.com/Musical-Linguistics" />
                     </div>
                 </ContentBlock>
                 <ContentBlock title="pwa games." bg={2} size="medium">

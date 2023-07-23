@@ -35,7 +35,7 @@ function MediaCard(props) {
                     : null
                 }
                 {props.visit
-                    ? <p>Visit the app <a style={{color: props.theme==="dark" ? "#EEE" : "#111"}} href={props.link} target="_blank" rel="noopener noreferrer">here</a></p>
+                    ? <p>Visit the app <a style={{color: props.theme==="dark" ? "#EEE" : "#111"}} href={props.visit} target="_blank" rel="noopener noreferrer">here</a></p>
                     : null
                 }
             </div>
