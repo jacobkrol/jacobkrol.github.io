@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.289694d3.chunk.css",
-    "main.js": "/static/js/main.8a477a9e.chunk.js",
-    "main.js.map": "/static/js/main.8a477a9e.chunk.js.map",
+    "main.css": "/static/css/main.7ce4e07e.chunk.css",
+    "main.js": "/static/js/main.0192ad47.chunk.js",
+    "main.js.map": "/static/js/main.0192ad47.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ec8748c8.js",
     "runtime-main.js.map": "/static/js/runtime-main.ec8748c8.js.map",
-    "static/js/2.202c30a9.chunk.js": "/static/js/2.202c30a9.chunk.js",
-    "static/js/2.202c30a9.chunk.js.map": "/static/js/2.202c30a9.chunk.js.map",
+    "static/js/2.23ecc417.chunk.js": "/static/js/2.23ecc417.chunk.js",
+    "static/js/2.23ecc417.chunk.js.map": "/static/js/2.23ecc417.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c0793c635851242428b10440c493a772.js": "/precache-manifest.c0793c635851242428b10440c493a772.js",
+    "precache-manifest.54bb5960a9db9a742567fa845ae75b77.js": "/precache-manifest.54bb5960a9db9a742567fa845ae75b77.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.289694d3.chunk.css.map": "/static/css/main.289694d3.chunk.css.map",
-    "static/js/2.202c30a9.chunk.js.LICENSE.txt": "/static/js/2.202c30a9.chunk.js.LICENSE.txt",
+    "static/css/main.7ce4e07e.chunk.css.map": "/static/css/main.7ce4e07e.chunk.css.map",
+    "static/js/2.23ecc417.chunk.js.LICENSE.txt": "/static/js/2.23ecc417.chunk.js.LICENSE.txt",
     "static/media/afa-group.jpg": "/static/media/afa-group.8aab9e00.jpg",
     "static/media/ascii-autostereogram.png": "/static/media/ascii-autostereogram.7aba442c.png",
     "static/media/asteroids.gif": "/static/media/asteroids.6455f3ac.gif",
@@ -35,6 +35,7 @@
     "static/media/map-lost.jpg": "/static/media/map-lost.3e6078f4.jpg",
     "static/media/maze-generator.gif": "/static/media/maze-generator.9b3cf548.gif",
     "static/media/maze-racer.gif": "/static/media/maze-racer.d5385cd2.gif",
+    "static/media/musical-linguistics.gif": "/static/media/musical-linguistics.c4f0a31f.gif",
     "static/media/nertz-demo.gif": "/static/media/nertz-demo.ada552d8.gif",
     "static/media/pap-stem-poster.pdf": "/static/media/pap-stem-poster.fda9991c.pdf",
     "static/media/index.css": "/static/media/source sans.5182da42.ttf",
@@ -50,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ec8748c8.js",
-    "static/js/2.202c30a9.chunk.js",
-    "static/css/main.289694d3.chunk.css",
-    "static/js/main.8a477a9e.chunk.js"
+    "static/js/2.23ecc417.chunk.js",
+    "static/css/main.7ce4e07e.chunk.css",
+    "static/js/main.0192ad47.chunk.js"
   ]
 }
